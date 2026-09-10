@@ -17,3 +17,6 @@ Listas ordenadas
 3. confirmar
 4. 
 [Enlace](https://github.com/AlexGines)
+
+![Perro](https://hips.hearstapps.com/hmg-prod/images/most-loyal-dog-breeds-pug-1643937852.jpeg?crop=0.5323279924599434xw:1xh;center,top)
+
