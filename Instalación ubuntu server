@@ -1,0 +1,8 @@
+# Instalación Ubuntu server
+
+1- Hacemos clic en "Nova" para empezar a crear una maquina virtual
+2- Ponemos el nombre que queramos que tenga la MV
+3- Seleccionamos donde esta la iso para que podamos crear la MV
+4- Si el "check" esta activado lo desactivamos y le damos a "siguiente"
+5- Le ponemos 2MB  de memoria, 2 CPU's y el espacio del disco lo dejamos en 25GB
+6- Le damos a siguiente y posteriormente en finalizar
