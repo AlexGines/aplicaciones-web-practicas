@@ -8,7 +8,9 @@
 6- Le damos a siguiente y posteriormente en finalizar
 
 Al iniciar la maquina nos da el siguiente error
+
 ![Imagen error VB](https://github.com/AlexGines/aplicaciones-web-practicas/blob/main/Error%20VB.png?raw=true)
+
 Significa que la version de linux  la de Virtual Box no son compatibles y toca reinstalar VB 
 
 Volvemos a hacer los pasos anteriores e iniciamos la maquina
