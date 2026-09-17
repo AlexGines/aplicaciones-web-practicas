@@ -43,3 +43,32 @@ Volvemos a hacer los pasos anteriores e iniciamos la maquina
 10- Marcamos la casiilla "Install OpenSSH server"
 
 11- Le decimos qu eno queremos instalar ningun snaps
+
+12- una vez finalize la instalacion le damos a "reboot Now
+
+## Crear red host only y config 2do adaptador
+
+1- Selecionamos "archivo - herramientas - red"
+
+2- Le damos a crear
+
+3- Le damos doble click y en servidor DHCP lo deshabilitamos y le damos a aplicar
+
+4- Ahora en la configuracion de la maquina, en el apartado de red, seleccionamos el 2do adaptador
+
+5- Le damos a habilitar y conectamos a "Adaptador Only"
+
+6- Le damos a acepter e iniciamos la maquina
+
+7- Si ponemos "ls /etc/netplan" vemos el archivo para editar la ip
+
+8- Ponemos "sudo nano y el archivo con la raiz"
+
+9- Escribimos "enp0s8" a la altura de enp0s 3
+
+10- debajo escribimos "dhcp4: false"
+
+11- A la altura de "dhcp4" ponemos "addresses:"
+
+12- y debajo escribimos la ip
+
