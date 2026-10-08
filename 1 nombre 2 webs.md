@@ -11,7 +11,7 @@
 
 5- Tiene que quedar asi para poder alojar las 2 paginas en 1 documento
 
-![2paginasdoc] (https://raw.githubusercontent.com/AlexGines/aplicaciones-web-practicas/refs/heads/main/Captura%20de%202026-10-08%2017-33-21.png)
+![2paginasdoc](https://github.com/AlexGines/aplicaciones-web-practicas/blob/main/Captura%20de%202026-10-08%2017-33-21.png?raw=true)
 
 6- Ahora toca habilitar y dehabilitar con los siguientes comandos: sudo a2ensite smr.conf sudo a2dissite 000-default.conf sudo apachectl configtest sudo systemctl restart apache2
 
