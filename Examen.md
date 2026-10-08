@@ -128,7 +128,26 @@ Volvemos a hacer los pasos anteriores e iniciamos la máquina.
 
 5- Tiene que quedar asi para poder alojar las 2 paginas en 1 documento
 
-![2paginasdoc](https://github.com/AlexGines/aplicaciones-web-practicas/blob/main/Captura%20de%202026-10-08%2017-33-21.png?raw=true)
+```html
+<VirtualHost *:80>
+        ServerName www.smr.com
+        DocumentRoot /var/www/smr/web
+</VirtualHost>
+
+<VirtualHost *:9999>
+        ServerName www.smr.com
+        DocumentRoot /var/www/smr/intranet
+        DirectoryIndex intranet.html
+
+
+        <Directory /var/www/smr/intranet>
+                AuthType Basic
+                AuthName "Intranet SMR"
+                AuthUserFile /etc/apache2/.htpasswd
+                Require valid-user
+        </Directory>
+</VirtualHost>
+```
 
 6- Ahora toca habilitar y dehabilitar con los siguientes comandos: sudo a2ensite smr.conf sudo a2dissite 000-default.conf sudo apachectl configtest sudo systemctl restart apache2
 
