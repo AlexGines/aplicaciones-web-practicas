@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Planes de alojamiento web</title>
+<style>
+ table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            padding: 12px;
+        }
+
+        th, td {
+            border: 1px solid #999;
+            padding: 12px;
+            text-align: center;
+        }
+        thead th{
+            background-color: rgb(9, 4, 66);
+            color: white;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #d3eeee;
+        }
+
+        tfoot th, tfoot td {
+            background-color: #96c5a5;
+            font-weight: bold;
+        }
+
+        td.caracteristica {
+            text-align: left;
+        }
+</style>
+</head>
+<body>
+    <table>
+        <caption>Planes de alojamiento web · NubeTorrent</caption>
+        <thead>
+            <tr>
+                <th colspan="2" rowspan="2">Característica</th>
+                <th colspan="3">Plan</th>
+            </tr>
+            <tr>
+                <th>Básico</th>
+                <th>Pro</th>
+                <th>Business</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2">Recursos</th>
+                <td class="caracteristica">Espacio en disco</td>
+                <td>10 GB</td>
+                <td>50 GB</td>
+                <td>200 GB</td>
+            </tr>
+            <tr>
+                <td class="caracteristica">Dominios</td>
+                <td>1</td>
+                <td>5</td>
+                <td>Ilimitados</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Soporte</th>
+                <td class="caracteristica">Correo electrónico</td>
+                <td style="color: green;">Sí</td>
+                <td style="color: green;">Sí</td>
+                <td style="color: green;">Sí</td>
+            </tr>
+            <tr>
+                <td class="caracteristica">Teléfono 24 h</td>
+                <td style="color: red;">No</td>
+                <td style="color: red;">No</td>
+                <td style="color: green;">Sí</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Precio al mes</th>
+                <th>3 €</th>
+                <th>9 €</th>
+                <th>19 €</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
